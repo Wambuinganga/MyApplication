@@ -32,6 +32,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
+
             android:hint="Title..." />
 
 
@@ -43,12 +44,13 @@
             android:layout_gravity="top|left"
             android:hint="Note..."
             android:lines="5"
+            android:background="@drawable/edit_text"
 
             />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="153dp"
+            android:layout_height="63dp"
             android:orientation="horizontal">
 
             <Button
@@ -58,23 +60,26 @@
                 android:layout_gravity="left"
                 android:drawableLeft="@drawable/ic_baseline_add_a_photo_24px"
                 android:text="Add Photo"
+
                 android:textAllCaps="false" />
+
 
             <Button
                 android:id="@+id/btnAddVoiceNote"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
-                android:background=""
+                android:background="c"
                 android:drawableLeft="@drawable/ic_mic"
                 android:drawablePadding="10dp"
                 android:text="Add Voice Note" />
+
         </LinearLayout>
 
         <View
             android:layout_width="10dp"
             android:layout_height="1dp"
-            android:layout_weight="1" />
+            android:layout_weight="0" />
 
         <Button
             android:id="@+id/btnSave"
@@ -82,12 +87,13 @@
             android:layout_height="wrap_content"
             android:layout_gravity="right"
             android:text="Save"
-            android:textAllCaps="false" />
+            android:background="@drawable/bg_button_pink"
+            android:textAllCaps="true" />
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/waterlily" />
+        <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:src="@drawable/waterlily" />-->
 
 
     </LinearLayout>
