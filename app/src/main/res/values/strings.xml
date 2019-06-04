@@ -2,4 +2,8 @@
     <string name="app_name">My Application</string>
     <string name="title_activity_add_note">AddNoteActivity</string>
     <string name="title_activity_view_note">ViewNote</string>
+    <string name="Note">Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit. Alias, consectetur delectus dolores eum fugit modi molestiae quaerat ve
+        l velit vitae! Corporis deleniti dolorem earum eos numquam optio placeat sapiente vel.</string>
+    <string name="Text">Tempor incididunt ut labore</string>
 </resources>

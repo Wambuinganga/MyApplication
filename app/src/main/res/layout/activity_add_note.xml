@@ -77,8 +77,8 @@
         </LinearLayout>
 
         <View
-            android:layout_width="10dp"
-            android:layout_height="1dp"
+            android:layout_width="9dp"
+            android:layout_height="5dp"
             android:layout_weight="0" />
 
         <Button
