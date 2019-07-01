@@ -69,7 +69,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
-                android:background="c"
                 android:drawableLeft="@drawable/ic_mic"
                 android:drawablePadding="10dp"
                 android:text="Add Voice Note" />
