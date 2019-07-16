@@ -78,10 +78,18 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         String whereClause="id=?";
         String[] whereArgs=new String[]{ String.valueOf(id)};
         sqLiteDatabase.delete(tableName, whereClause, whereArgs);
+    }
+
+    public void updateNotes(int id){
+        SQLiteDatabase sqLiteDatabase=this.getReadableDatabase();
+        ContentValues values=new ContentValues();
+        values.put("id", "values");
+        String whereClause="id=?";
+        String tableName="notes";
+        String[] whereArgs=new String[]{ String.valueOf(id)};
+        sqLiteDatabase.update("note", values, whereClause, whereArgs);
 
 
-
-
-        }
+    }
 }
 

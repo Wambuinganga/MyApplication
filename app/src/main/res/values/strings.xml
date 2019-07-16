@@ -6,4 +6,5 @@
         consectetur adipisicing elit. Alias, consectetur delectus dolores eum fugit modi molestiae quaerat ve
         l velit vitae! Corporis deleniti dolorem earum eos numquam optio placeat sapiente vel.</string>
     <string name="Text">Tempor incididunt ut labore</string>
+    <string name="title_activity_edit_note">EditNoteActivity</string>
 </resources>
